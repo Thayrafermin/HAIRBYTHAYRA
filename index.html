@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BraidByThayra</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #8C5E58;
+    }
+    header {
+      background-color: #E5A4A4;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    nav {
+      background-color: #8C5E58;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #E5A4A4;
+    }
+    .services li {
+      margin-bottom: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, select, textarea, button {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #E5A4A4;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #8C5E58;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Thayra Fermin</strong></div>
+    <div>
+      <a href="#instagram">Instagram</a>
+      <a href="#tiktok">TikTok</a>
+      <a href="#linkedin">LinkedIn</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Where Beauty Meets Braids</h1>
+    <p>Flawless Braids, Expertly Crafted by Thayra</p>
+  </header>
+
+  <section id="about">
+    <h2>About Thayra</h2>
+    <p>Hey, I’m Thayra! I’m passionate about celebrating beauty through braiding. With 4 years of experience, I specialize in creating protective styles that not only look amazing but help promote healthy hair. When you sit in my chair, you’re not just getting braids—you’re getting a confidence boost.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul class="services">
+      <li><strong>Knotless Braids</strong> – Lightweight, sleek, and gentle on your edges. ($150–$250)</li>
+      <li><strong>Box Braids</strong> – A timeless protective style with endless versatility. ($100–$200)</li>
+      <li><strong>Feed-In Cornrows</strong> – Clean, defined, and perfect for any occasion. ($50–$100)</li>
+      <li><strong>Children’s Styles</strong> – Age-appropriate braids that last. ($30–$80)</li>
+      <li><strong>Touch-ups & Maintenance</strong> – Keep your look fresh longer. ($50)</li>
+    </ul>
+    <p><em>Prices may vary by length</em></p>
+  </section>
+
+  <section id="booking">
+    <h2>Booking Info</h2>
+    <p>Booking policies, required deposits, and hair prep instructions can be found on my <a href="https://instagram.com/hairbythayra" target="_blank">Instagram @hairbythayra</a>.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:braidsbythayra@gmail.com">braidsbythayra@gmail.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Location: Lower East Side</p>
+    <p>Instagram / TikTok: @hairbythayra</p>
+
+    <h3>Let’s get in touch</h3>
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option>Knotless Braids</option>
+        <option>Box Braids</option>
+        <option>Feed-In Cornrows</option>
+        <option>Children’s Styles</option>
+        <option>Touch-ups & Maintenance</option>
+      </select>
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p><em>Thank you for your interest! Please allow 1–3 business days for an answer. Looking forward to working together.</em></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BraidByThayra</p>
+  </footer>
+</body>
+</html>
